@@ -1,0 +1,21 @@
+{
+  "name": "visual_regression_testing",
+  "version": "1.0.0",
+  "description": "Visual Regression using applitools and Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run:snapshot": "APPLITOOLS_SHOW_LOGS=1 APPLITOOLS_CONCURRENCY=100 cypress run --config integrationFolder=cypress/snapshot"
+  },
+  "keywords": [
+    "Cypress",
+    "Visual_testing",
+    "Applitools"
+  ],
+  "author": "Parita",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.9.21",
+    "cypress": "^4.3.0"
+  }
+}
